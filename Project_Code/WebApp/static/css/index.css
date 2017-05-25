@@ -1,0 +1,71 @@
+.demo-layout-transparent {
+  background: url('https://getmdl.io/assets/demos/transparent.jpg') center / cover;
+}
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+  /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+  color: white;
+}
+
+.center {
+	margin : auto;
+	width : 20%;
+	padding : 180px;
+}
+
+.buttonAlign {
+	float: right;
+}
+
+  .demo-card-square.mdl-card {
+    width: 320px;
+    height: 320px;
+    margin-left: 20px ;
+  }
+  .demo-card-square > .mdl-card__title {
+    color: #757575;
+    background-color: #212121 ;
+  }
+
+
+
+.card2 {
+	margin-top: -320px;
+	margin-left: 450px;
+	width : 50%;
+	padding : 0px;
+}
+
+.card3 {
+	margin-top: -320px;
+	margin-left: 880px;
+	width : 90%;
+	padding : 0px;
+}
+
+.mdl-demo section.section--footer .section__circle--big {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  margin: 8px 32px;
+}
+.mdl-demo .is-small-screen section.section--footer .section__circle--big {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin: 8px 16px;
+}
+.mdl-demo section.section--footer {
+  padding: 64px 0;
+  margin: 0 -8px -8px -8px;
+}
+
+.mdl-mega-footer--drop-down-section{
+		margin-left: 500px;
+}
+
+.myIcon {
+	margin-top: -60px;
+	margin-left: 57px;
+}
